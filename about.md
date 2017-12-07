@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+A sheet of blue haze masks narrow city streets, pierced only by incandescent holographic projections. The cacophony of synthetic colorful sounds fades as I emerge from a virtual arcade. A place where I am allowed to fail. It’s a distraction from a reality where the only alternative is public Japanese ritual suicide.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+The rain hits me and washes away the criminal counterfeit that I call my digital self. It’s quiet again. The world sleeps silently as the machines sing their songs and I listen, walking among them in awe of their sense of purpose.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I kind of envy them. They don’t panic. They don’t feel pain. And when they fail, it was only because of their programming.
+
+And here I stand among them... my withering body fueled only by alcohol, painkillers, and methamphetamines.
+
+Philosophical themes and machine dreams.
+Music, Art, Film, and God knows what else what.
+
+Welcome to my world….
