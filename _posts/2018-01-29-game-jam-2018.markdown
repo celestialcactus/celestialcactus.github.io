@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Game Jam 2018"
+date:   2018-01-29 12:44:06 -0500
+---
+
+Every year game developers around the world come together to collaborate and create in the worlds largest game dev event. In just forty eight hours, these creatives will have worked tirelessly around the clock to bring their ideas to life.
+
+Welcome to the Global Game Jam.
+
+This past weekend I had the pleasure to participate in the worldwide event at the Ferguson Library in Stamford Connecticut. This year would be my second time attending the event, but by no means will it be the last.
+
+Along with some familiar faces, and a fair share of new ones I would embark on one of the most creatively refreshing weekends I have had in a long time.
+
+So how does the Game Jam work?
+
+Glad you asked.
+
+Over the course of a weekend, teams will group together to develop a game based around a set theme. This encourages groups to start from scratch in order to have their game fit the theme, rather than rely on previous assets or builds. At the end of the day on Sunday, all hands would come off their tools and the games would be judged.
+
+Sounds fun right?
+
+Hell yeah it is.
+
+Now, I am nowhere close to being a developer. At least when it comes to working with any kind of code or programming. The most I can do is a little bit of drawing, writing, and music. But this is one of the amazing things about the Game Jam. You don’t have to be a programming wizard to have fun. You will always walk into an event and find friendly faces who are willing to work with whatever skillset you have to make a game. As long as you are willing to learn and collaborate you will always feel at home.
+
+Team Vortex would be my home for the second year in a row. What first occurred as a joke referencing the inept pokemon villains and their goofy team names would become the permanent name for our dev group.
+
+And we were back to kick some ass and chew bubblegum.
+
+And we were all out of bubblegum.
+
+As soon as the announcement for the theme came through we immediately got the ideas rolling. This years theme was “Transmission”. We first started with a “pandemic” style game where the player would work to create the ultimate STD and spread it across the country. The player would select different traits and have the disease evolve, and eventually infect every teenager in America in some of the grossest gameplay possible.
+Of course it isn’t hard to see why we couldn’t just roll with the idea at a very much family friendly event.
+
+We had to think of the children.... We had to come up with a new plan.
+
+Eventually after twenty or so game ideas we had something. We settled on the marriage of two concepts that had the potential for some interesting platforming gameplay and narrative substance. One idea would have the player control a carrier pigeon trying to deliver a message from one person to another while evading various obstacles along the way.
+
+The other idea involved a courier in the first world war running across the battlefield delivering messages and picking up letters from soldiers in the trenches. The story would revolve around the letters that the soldiers wrote, many of them being their dying words to their loved ones. Pretty dark, but appropriate.
+
+So we decided that the carrier pigeon would be a playable character in a World War 1 themed game and got rolling on the darkly themed narrative which would be aptly named “Courier”.
+
+This initial idea would inspire the first track that I made for the game. A simple drone piece that would carry the tension experienced in the trenches and beyond. No heroic trumpets blaring, no tragic strings. Just a dark tone underneath the screams of men and incoming mortar fire.
+
+This is where the rest of the project differed from the tracks tone. The art style was more lighthearted and cartoony, and the gameplay was extremely fast paced and jumpy. This called for drawing it back a bit. At least so the entire game didn't sound like a horror movie while looking like an E rated platformer.
+
+Overall I was happy with how the Game Jam went. The team worked to create a by far better end product than last years. I also ended up composing a number of orchestral tracks for the game, venturing into a genre of music I wasn't used to making. 

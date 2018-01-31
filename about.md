@@ -18,3 +18,7 @@ Philosophical themes and machine dreams.
 Music, Art, Film, and God knows what else what.
 
 Welcome to my world….
+
+<!-- Hey, I’m Gabe. I make music, videos, and have an unhealthy relationship with technology. Like a lot of people my age, I worry a lot. Some people worry about their exams or whether they’ll be able to crawl out of crippling debt. I worry about whether or not the next anime adaptation will be garbage. I worry about if I’ll still have a job when robots finally develop a creative conscience. And I also worry about whether or not I’ll be able to visit Japan before North Korea turns it into a Mad Max esque radioactive wasteland.
+
+Come along for the ride into the digital abyss. -->
