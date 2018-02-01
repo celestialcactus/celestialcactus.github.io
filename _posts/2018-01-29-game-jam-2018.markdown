@@ -26,7 +26,7 @@ Now, I am nowhere close to being a developer. At least when it comes to working 
 
 Team Vortex would be my home for the second year in a row. What first occurred as a joke referencing the inept pokemon villains and their goofy team names would become the permanent name for our dev group.
 
-<img src="/assets/gamejam-1.jpg" style="float: right; max-width: 350px, margin: 0 15px 15px 0;" /> And we were back to kick some ass and chew bubblegum.
+<img src="/assets/gamejam-1.jpg" style="float: right; max-width: 350px; margin: 0 0 15px 15px;" /> And we were back to kick some ass and chew bubblegum.
 
 And we were all out of bubblegum.
 
@@ -39,7 +39,7 @@ Eventually after twenty or so game ideas we had something. We settled on the mar
 
 The other idea involved a courier in the first world war running across the battlefield delivering messages and picking up letters from soldiers in the trenches. The story would revolve around the letters that the soldiers wrote, many of them being their dying words to their loved ones. Pretty dark, but appropriate.
 
-<img src="/assets/gamejam-2.png" style="float: left; max-width: 350px; margin: 0 0 15px 15px;" /> So we decided that the carrier pigeon would be a playable character in a World War 1 themed game and got rolling on the darkly themed narrative which would be aptly named “Courier”.
+<img src="/assets/gamejam-2.png" style="float: left; max-width: 350px; margin: 0 15px 15px 0;" /> So we decided that the carrier pigeon would be a playable character in a World War 1 themed game and got rolling on the darkly themed narrative which would be aptly named “Courier”.
 
 This initial idea would inspire the first track that I made for the game. A simple drone piece that would carry the tension experienced in the trenches and beyond. No heroic trumpets blaring, no tragic strings. Just a dark tone underneath the screams of men and incoming mortar fire.
 
