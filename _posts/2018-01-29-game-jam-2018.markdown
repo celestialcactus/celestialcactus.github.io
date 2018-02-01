@@ -45,4 +45,8 @@ This initial idea would inspire the first track that I made for the game. A simp
 
 This is where the rest of the project differed from the tracks tone. The art style was more lighthearted and cartoony, and the gameplay was extremely fast paced and jumpy. This called for drawing it back a bit. At least so the entire game didn't sound like a horror movie while looking like an E rated platformer.
 
-Overall I was happy with how the Game Jam went. The team worked to create a by far better end product than last years. I also ended up composing a number of orchestral tracks for the game, venturing into a genre of music I wasn't used to making. 
+Overall I was happy with how the Game Jam went. The team worked to create a by far better end product than last years. I also ended up composing a number of orchestral tracks for the game, venturing into a genre of music I wasn't used to making.
+
+The game can be downloaded and played here:  [https://globalgamejam.org/2018/games/courier-0](https://globalgamejam.org/2018/games/courier-0)
+
+The soundtrack will be available soon as well. 
