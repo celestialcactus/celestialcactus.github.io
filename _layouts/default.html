@@ -5,16 +5,18 @@
 
   <body>
 
-    {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="container-fluid">
+      {% include header.html %}
+      <div class="page-content">
+          {{ content }}
       </div>
-    </div>
 
     {% include footer.html %}
-
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+    <script src="js/stickysections.js"></script>
   </body>
 
 </html>

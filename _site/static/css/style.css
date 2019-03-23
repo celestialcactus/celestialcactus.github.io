@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url("../fonts/GlacialIndifference-Regular.otf");
+}
+@font-face {
+  font-family: 'Glacial Indifference';
+  font-weight: bold;
+  src: url("../fonts/GlacialIndifference-Bold.otf");
+}
+@font-face {
+  font-family: 'Glacial Indifference';
+  font-style: italic;
+  src: url("../fonts/GlacialIndifference-Italic.otf");
+}
+body {
+  background-color: #000000;
+  color: #fff;
+}
+
+.section-border {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: #fff solid 1px;
+}
+
+img {
+  width: 100%;
+}
+
+.img--bw {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all 500ms;
+}
+.img--bw:hover {
+  filter: grayscale(0);
+  transition: all 500ms;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Glacial Indifference';
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h5 {
+  font-style: italic;
+}
+
+.btn-primary {
+  background-color: #fff;
+  border-radius: 0;
+  color: #000;
+  border: #fff 2px solid;
+}
+.btn-primary:hover {
+  border: #fff 2px solid;
+  color: #fff;
+  background-color: #000;
+}
+
+iframe {
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .floatingHeader {
+    width: 100% !important;
+    z-index: 10000;
+    display: block;
+    margin-left: -5px;
+    padding-left: 5px;
+    background-color: #000;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

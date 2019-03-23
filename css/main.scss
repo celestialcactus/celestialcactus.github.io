@@ -51,3 +51,222 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('../fonts/GlacialIndifference-Regular.otf');
+}
+@font-face {
+    font-family: 'Glacial Indifference';
+    font-weight: bold;
+    src: url('../fonts/GlacialIndifference-Bold.otf');
+}
+@font-face {
+    font-family: 'Glacial Indifference';
+    font-style: italic;
+    src: url('../fonts/GlacialIndifference-Italic.otf');
+}
+
+body {
+    background-color: #000000;
+    color: #fff;
+}
+.section-border {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: #fff solid 1px;
+}
+img {
+    width:100%;
+}
+.img--bw {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all 500ms;
+    &:hover {
+        filter: grayscale(0);
+        transition: all 500ms;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Glacial Indifference';
+}
+h1 {
+    font-weight: bold;
+}
+h5 {
+    font-style: italic;
+}
+.btn- {
+    &primary {
+        background-color: #fff;
+        border-radius: 0;
+        color: #000;
+        border: #fff 2px solid;
+        &:hover {
+            border: #fff 2px solid;
+            color: #fff;
+            background-color: #000;
+        }
+    }
+}
+iframe {
+    border: 0;
+}
+
+.floatingHeader {
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    background-color: #000;
+    padding-top: 10px;
+  }
+
+@media (max-width: 768px) {
+    .floatingHeader {
+        width: 100% !important;
+        z-index:10000;
+        display:block;
+        margin-left:-5px;
+        padding-left:5px;
+        background-color: #000;
+    }
+}
+
+@mixin textGlitch($name, $intensity, $textColor, $background, $highlightColor1, $highlightColor2, $width, $height) {
+    color: $textColor;
+    position: relative;
+    $steps: $intensity;
+    // Ensure the @keyframes are generated at the root level
+    @at-root {
+      // We need two different ones
+      @for $i from 1 through 2 {
+        @keyframes #{$name}-anim-#{$i} {
+          @for $i from 0 through $steps {
+            #{percentage($i*(1/$steps))} {
+              clip: rect(
+                random($height)+px,
+                $width+px,
+                random($height)+px,
+                0
+              );
+            }
+          }
+        }
+      }
+    }
+    &:before,
+    &:after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: $background;
+      clip: rect(0, 0, 0, 0); 
+    }
+    &:after {
+      left: 2px;
+      text-shadow: -1px 0 $highlightColor1;
+      animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
+    }
+    &:before {
+      left: -2px;
+      text-shadow: 2px 0 $highlightColor2; 
+      animation: #{$name}-anim-2 3s infinite linear alternate-reverse;
+    }
+    
+  }
+  
+  
+  @mixin imgGlitch($name, $intensity, $width, $height, $top, $left) {
+    
+    $steps: $intensity;
+    
+    // Ensure the @keyframes are generated at the root level
+    @at-root {
+      // We need two different ones
+      @for $i from 1 through 2 {
+        @keyframes #{$name}-anim-#{$i} {
+          @for $i from 0 through $steps {
+            #{percentage($i*(1/$steps))} {
+              clip: rect(
+                random($height)+px,
+                $width+px,
+                random($height)+px,
+                0
+              );
+            }
+          }
+        }
+      }
+    }
+    
+    > img {
+      position: absolute;
+      top: $top+px;
+      left: $left+px;
+    }
+    > img:nth-child(2),
+    > img:nth-child(3){
+      clip: rect(0, 0, 0, 0); 
+    }
+    > img:nth-child(2) {
+      left: ($left + 2) + px;
+      animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
+    }
+    > img:nth-child(3) {
+      left: ($left - 2) + px;
+      animation: #{$name}-anim-2 3s infinite linear alternate-reverse;
+    }
+  }
+  
+  
+  
+  @mixin svgGlitch($name, $intensity, $fillColor, $background, $fillHighlight1, $fillHighlight2, $width, $height, $top, $left) {
+    
+    $steps: $intensity;
+    
+    // Ensure the @keyframes are generated at the root level
+    @at-root {
+      // We need two different ones
+      @for $i from 1 through 2 {
+        @keyframes #{$name}-anim-#{$i} {
+          @for $i from 0 through $steps {
+            #{percentage($i*(1/$steps))} {
+              clip: rect(
+                (random($height)-20)+px,
+                $width+px,
+                (random($height)+20)+px,
+                0
+              );
+            }
+          }
+        }
+      }
+    }
+    
+    svg {
+      position: absolute;
+      top: $top+px;
+      left: $left+px;
+      fill: $fillColor;
+      background: $background;
+      width: $width+px;
+      height: $height+px;
+    }
+    svg:nth-child(2),
+    svg:nth-child(3) {
+      clip: rect(0, 0, 0, 0); 
+    }
+    svg:nth-child(2) {
+      fill: $fillHighlight1;
+      left: ($left - 2) + px;
+      animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
+    }
+    svg:nth-child(3) {
+      fill: $fillHighlight2;
+      left: ($left + 2) + px;
+      animation: #{$name}-anim-2 3s infinite linear alternate-reverse;
+    }
+  }
