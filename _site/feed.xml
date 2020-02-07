@@ -1,162 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Dec 2017 14:22:34 -0500</pubDate>
-    <lastBuildDate>Thu, 07 Dec 2017 14:22:34 -0500</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
-    
-      <item>
-        <title>How Mamuro Oshii Tells a Story Through Space </title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/ARTLckN9e7I&quot;&gt;Link to Scene&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-07T18:28:56-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/02/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-02-07T18:27:42-05:00</published><updated>2020-02-07T18:27:42-05:00</updated><id>http://localhost:4000/jekyll/update/2020/02/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/02/07/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;p&gt;Mamuro Oshii’s classic 1995 Ghost in the Shell is one of my most favorite films. Not only is it considered to be one of the greatest anime films of all time, but it also served to be the next step in the evolution of the science fiction film genre. There is so much that I can say about this masterpiece, but for right now, I am going to focus on one of its aspects that are often overlooked by both filmmakers and audiences alike.&lt;/p&gt;
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
-&lt;p&gt;Location and space.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;One thing that I have always appreciated about Mamuro Oshii is his brilliant use of setpieces to convey emotions and themes. There is a three and a half minute segment in Ghost in The Shell that shows just how effective he is at achieving this. However, before I dive into this, it is important to have an understanding of the film’s philosophy and setting to be able to fully appreciate Oshii’s direction.
-Ghost in the Shell follows Motoko Kusanagi, a fully cyber-augmented field officer, and her unit part of a public-security division known as Section 9. Throughout the film, Motoko undergoes a search for her own identity, often times questioning her own humanity. This is the films inherent theme. The “Ghost in the Shell” referring to the separation of the mind in a physical body. In this three and a half minute scene, Oshii captures Motoko’s internal dilemma externally through her surroundings.&lt;/p&gt;
+&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-&lt;p&gt;From the start, we immediately open on Motoko staring blankly ahead as she rides a boat through the city. Eventually, she turns to face the camera, initiating the sequence that reflects the thoughts. Kenji Kawai’s Japanese choir sounds as a plane flies over a city very clearly modeled after Hong Kong. The plane itself takes on a very naturally avian design, almost completely birdlike. This is emphasized even more so in its reflection in the windows of a building. It’s silhouette bending and warping to give its wings a featherlike motion. Yet while it retains a naturalistic design, it is still a fully artificial product of manufacturing. The plane reflects Motoko and her world. A world that has blurred the lines between what is natural or artificial.&lt;/p&gt;
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/oshii-1.png&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;As the boat continues, we begin to see more of the city for ourselves. A dark and dreary color palette fills the screen in the form of a maze of distressed buildings, occupied by a sea of seemingly lifeless inhabitants. As Motoko passes a building, she sees a woman in a cafe window. This woman appears to be the same exact model as Motoko. They maintain eye contact for some time until Motoko looks again forward towards the city as if to question the difference between the artificial structure of the city and herself.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/oshii-2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We are then shown garbage floating in the water, mechanical relics of past years. This image subsequently follows her encounter with the woman in the window, suggesting that Motoko is questioning her individuality. Is there anything humanly unique about her? Is she just another production model to be thrown away when she is no longer of use? This question is then extended to the general population, as we see peoples reflections among mannequins in store windows. The mannequins are nearly identical to the people walking by blurring any distinction between what is truly human. Motoko also once again sees another model of herself in the store window, serving as another reflection. It is all of these repetitive symbols that capture the essence of Motoko’s struggle and the overarching theme.&lt;/p&gt;
-
-&lt;p&gt;Motoko being almost fully machine is unable to properly display her emotions, not knowing what it is like to feel like a human being. So instead, the city weeps for her as the rain begins pouring down. While raining we are taken through more shots of the city, being able to see the old buildings reminiscent of Kowloon contrasting with the silver megastructures that make up the new city. We see children running through the rain, representing the city’s small human essence that it clutches onto, overshadowed by the giant industrial structures. This symbolism repeated in images of humans contrasting with their environment, showing the conflict between machine and humanity. Not a blaring conflict with guns and bullets, but a gradual whimpering. A cold mechanical coma. Motoko searching for a meaning lost in a cycle of technology and time. Like tears in the rain.&lt;/p&gt;
-
-&lt;p&gt;Ghost in The Shell is a work characterized by its profound subject matter and themes. However, it is only through Oshii’s direction that this film is able to have its intended effect. Oshii adds a visual element to the story not just to fulfill establishing shots or transitions, but to drive home the emotion that is being carried throughout the story. He proves one thing about the environment around you. You can ask a question without speaking, and if you listen for long enough, the world will answer for itself.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Dec 2017 12:44:06 -0500</pubDate>
-        <link>http://yourdomain.com/2017/12/05/scene.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2017/12/05/scene.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Livestream</title>
-        <description>&lt;iframe src=&quot;https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgabe.ortiz.77%2Fvideos%2F1575358719169832%2F&amp;amp;show_text=1&amp;amp;width=560&quot; width=&quot;560&quot; height=&quot;406&quot; style=&quot;border:none;overflow:hidden&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Tue, 05 Dec 2017 12:44:06 -0500</pubDate>
-        <link>http://yourdomain.com/2017/12/05/livestream.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2017/12/05/livestream.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Life Recipes from Gabriel Ortiz</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/interview-1.png&quot; style=&quot;float:right; max-width: 250px; margin-left: 15px; margin-bottom: 15px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;“Dig into that shit.”&lt;/p&gt;
-
-&lt;p&gt;The jokingly, captain obvious goal of cooking yourself a meal from my classmate Gabriel Ortiz. And as I questioned him about fashioning stove top consumables, I couldn’t help but parallel Gabe’s chef-like-qualities to the essential skills of leading a coherent life.&lt;/p&gt;
-
-&lt;p&gt;“I do all my choppin’, set the plates.” Mapping the Rachel Ray road to successful thirty-minute meals that makes watching episodes of Stranger Things seem affordable while balancing college credit contingency—a trench warfare I fight in finding time.&lt;/p&gt;
-
-&lt;p&gt;“I try to time things out,” he said, employing the hamster-minded-wheels, imagining himself in the apron jockeying pots and pans. “I finish one task while moving to another,” he exerted. And whether I’m catching a train or catching up with film review revisions, I’m always trying to catch the ball that’s rolling.&lt;/p&gt;
-
-&lt;p&gt;Gabe says with a smile, “I clean as I go, it just makes things easier.” And I thought, no sense in trippin’ on your own feet, especially when they’re the ones that got you there. If I didn’t clean up after myself physically and mentally, I’d be living a messy life full of obstacles that I created.&lt;/p&gt;
-
-&lt;p&gt;So what I should do is take Gabe’s (whether he was giving or not) advice, and live in his would of kitchen etiquette: where if you pay the always moving hands, ready the table, and have a rag to spare, you can “Dig into that shit.” Dig into life.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Dec 2017 12:44:06 -0500</pubDate>
-        <link>http://yourdomain.com/2017/12/05/life-recipes-gabriel-ortiz.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2017/12/05/life-recipes-gabriel-ortiz.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Death Grips My Tongue&#39;s Tip</title>
-        <description>&lt;p&gt;And I can’t stop listening to them…&lt;/p&gt;
-
-&lt;p&gt;Some months ago, I was experiencing my annual musical exploration kick. I liken it to a weekend rum tasting of sorts. A collection of the finest aural flavors I could crowdsource and research in a week’s time, lined up in neat rows ready to be savored and critiqued. This year’s tasting was a little underwhelming.&lt;/p&gt;
-
-&lt;p&gt;I had just recently come off of the Doom 2016 Video Game Soundtrack composed by Mick Gordon. Its impressive blend of heavy multi-processed analog synth tones and down-tuned guitar riffs. I was still craving something heavy hitting, unique, and genre-breaking as Mick’s soundtrack.&lt;/p&gt;
-
-&lt;p&gt;I had already drunk a glass of Bacardi beforehand, and now all I wanted to do was get lit.&lt;/p&gt;
-
-&lt;p&gt;I was about to give up and just down the rest of the bottle, a decision that most binge drinkers regret when they’re leaned over the toilet extruding their insides at projectile velocity.
-(Drink responsibly kids.)&lt;/p&gt;
-
-&lt;p&gt;That was when my friend approached me with a late recommendation. A bottle labeled Death Grips: Bottomless Pit. He approached me and said, “Yo you gotta listen to these guys, like they’re maaaad crazy but it’s something that you would probably into”.&lt;/p&gt;
-
-&lt;p&gt;Maaaaaad crazy huh? I liked the sound of that.&lt;/p&gt;
-
-&lt;p&gt;So I said, “Eh, sure I’ll have a listen”. I plugged in and strapped down, ready to experience this mad crazy for myself.&lt;/p&gt;
-
-&lt;p&gt;If Mick Gordon’s Doom soundtrack was a glass of Bacardi, Death Grips was an oddly mixed Molotov cocktail.&lt;/p&gt;
-
-&lt;p&gt;For those of you who are new to this banger of a party, Death Grips is a Sacramento based experimental hip-hop trio, featuring rapper/vocalist MC Ride, Zach Hill on drums, and Andy Morin on production and bass guitar. They’re most known for their unconventional musical style and genre-bending tracks that have been influential in steering the direction of modern hip-hop. MC Rides aggressive vocal delivery accentuates the group’s raw energy both in the studio and on stage, and in my opinion, serves to be the most important ingredient to this hell of a concoction.&lt;/p&gt;
-
-&lt;p&gt;The first track that I had the pleasure of listening to was Death Grips’ “Hot head”. The track opened up with some arpeggiated analog style synths. Not a bad start to a track. I tend to enjoy synthesizers, and it had been a while since I heard any kind of rap or hip-hop with electronic influences. I wasn’t ready for what I was about to hear next. I was met with a violent bombardment of downsampled percussion and incoherent gibberish. A few seconds later and the bombardment intensified. It sounded like a group of metal, free jazz, and punk drummers decided to have a musical orgy, and the gibberish now sounded more akin to a dog barking into a microphone.&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=hWB23fHSBxU&amp;amp;list=PL3fa2n-Fi00c9-8vuC378xm6vqrjRiqn6&amp;amp;index=2&lt;/p&gt;
-
-&lt;p&gt;My ears were asking me “lol wtf is this, unplug please”. I ended up going home and listening to more of their material. To my confusion, there happened to be a significant cult fan-base following them. At first, I thought they were just a meme circulated by music forums.&lt;/p&gt;
-
-&lt;p&gt;It took a while to get adjusted to the new sound. But after a few listens over their work I began discovering the actual appeal behind Death Grips, and actually began to enjoy their tracks. I began loving every crazy second of it that I heard and even found meaning in their music.&lt;/p&gt;
-
-&lt;p&gt;This can be found on tracks like “I’ve Seen Footage”, in which MC Ride talks about how he has not only become desensitized by his past trauma but also as a result of the mass amounts of disturbing media online. I find this track meaning to be extremely culturally relevant, considering that the topic of trauma has been overlooked when it comes to media. I myself have found myself witness to traumatizing events right in front of me, and not batting an eye due to the imagery I have experienced second hand. This same type of unfiltered substance can be found in many other tracks as well, offering not just a unique sound to their artistry, but bold commentary as well.&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=sticXkHxZC4&lt;/p&gt;
-
-&lt;p&gt;Death Grips has become one of my favorite listens of all time, offering a unique flavor of artistry through their performance, musical sound, and lyricism. It isn’t often that I go for second or third rounds, so I definitely would recommend giving them a taste. Who knows, maybe you’ll find that Death Grips your tongue too.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Dec 2017 12:44:06 -0500</pubDate>
-        <link>http://yourdomain.com/2017/12/05/death-grips.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2017/12/05/death-grips.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Ballad of St. John’s Towers: A Utopian Dream Deferred</title>
-        <description>&lt;p&gt;The morning light crests over the horizon, revealing its full radiance upon the Stamford skyline. Shoulder to shoulder a sea of business casual (and occasional “casual-casual”) sits huddled outside the Stamford metro station, anxiously waiting for their cue while trying to stay warm in the brisk November air. The walk signal appears, and among the rest of the bodies I begin my journey downtown walking through the sleek wiggling curvatures of the UBS building’s exterior.  However cold the air is it doesn’t take long for the bodies to disperse, each going to their respective places of work. By the time I’m halfway through the park the suits in front of me are gone, and I am left without meat shields to absorb the wind tunnel that is Washington Blvd.&lt;/p&gt;
-
-&lt;p&gt;That’s when I see them. The buildings that the coastlines financial buildings try so desperately to hide from passersby on the 95. The cylindrical buildings stand tall but not so proud, triangulated in array of dilapidated exteriors. Everything is a discolored grey now, if there even is such a thing. It’s not even cloudy outside. Hell, its bright as day could ever be given today’s climate. But with these buildings everything seems grey. The scene feels straight out of a dystopian future noir. The huge monolithic corporations to my back as I walk face buried in my jacket among a cast of downtrodden characters played in part by the buildings’ residents. Their faces bearing the personality of the buildings they inhabit as they wait for their morning bus.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/towers-1.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;God these buildings are ugly.&lt;/p&gt;
-
-&lt;p&gt;Yet I still hold a sentiment towards them. The reason being a small detail that few fail to notice walking by these buildings. A painting sitting in a windowsill.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/towers-2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I don’t see these buildings for what they are… I see them for what they could have been.&lt;/p&gt;
-
-&lt;p&gt;At the time of their completion in 1971, these buildings were considered to be futuristic, bearing a utopic element of design in a city dominated by brownstone buildings and industrial warehouses. The concept imagined residences surrounded by free form highline parks for residents to explore, complete with lush green grass patches, ponds, and recreational areas. These buildings were the embodiment of a Utopian values both in design aesthetic and lifestyle that today’s smart cities still fail to create.&lt;/p&gt;
-
-&lt;p&gt;So where did it go wrong?&lt;/p&gt;
-
-&lt;p&gt;This I sadly can’t say for certain. All I know is that the buildings did (at least to some extent) realize some of its concepts. Here in an image taken from a bird’s eye view you can see the highline still bears what resembles a basketball court, just like the one you can vaguely see in the concept art.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/towers-3.png&quot; style=&quot;float:right; max-width: 250px; margin-left: 15px; margin-bottom: 15px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In addition, the buildings became home to many immigrant residents moving into Stamford, and that it still today provides an affordable housing option to these families. What is an eyesore for the city is one of the few last remaining downtown structures that allows lower income families to have access to this part of Stamford.&lt;/p&gt;
-
-&lt;p&gt;It is in this sense that the buildings still stand for something. They still carry the idea that everyone can be part of a city’s growth. But this idea, like the buildings themselves, is crumbling away in favor of a more gilded city image. While digging up some information on the buildings, I came on a series of city development forums from 2007 which all point to a fundamental problem in the city’s urban development, and urban development across the country. Lack of affordable housing.&lt;/p&gt;
-
-&lt;p&gt;In addition, the inner demolition to one of the buildings has already occurred. These plans were referred to on the forums. Their replacement? Luxury condos.
-This is where the Utopian dream becomes deferred.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Dec 2017 12:44:06 -0500</pubDate>
-        <link>http://yourdomain.com/2017/12/05/ballad.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2017/12/05/ballad.html</guid>
-        
-        
-      </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
