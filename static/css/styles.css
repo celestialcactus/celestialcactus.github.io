@@ -36,17 +36,23 @@ html, body {
   padding-bottom: .5em;
   text-decoration: underline;
 }
-.sidebar li a:hover {
+.sidebar li a:hover, .sidebar li a.current-link {
   text-decoration: none;
 }
 
+.portfolio-page img {
+  max-width: 100%;
+}
+
+.hero {
+  background-position: center;
+  background-size: cover;
+}
 .hero--home {
   height: 95vh;
 }
 .hero--home-triangle {
   background-image: url("../assets/home/triangle.gif");
-  background-position: center;
-  background-size: cover;
   position: relative;
   display: flex;
   flex-direction: column-reverse;
@@ -59,6 +65,12 @@ html, body {
   text-align: center;
   color: #eeeeee;
   font-family: "Lato";
+}
+.hero--proj {
+  height: 80vh;
+}
+.hero--proj--projection {
+  background-image: url("../assets/proj/projection/cover.gif");
 }
 
 @media (min-width: 576px) {

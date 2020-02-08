@@ -37,20 +37,24 @@ html, body {
         font-size: 1.5em;
         padding-bottom:.5em;
         text-decoration: underline;
-        &:hover {
+        &:hover, &.current-link {
             text-decoration: none;
         }
     }
     font-family: $primary-font;
 }
 
+.portfolio-page img {
+    max-width: 100%;
+}
+
 .hero {
+    background-position: center;
+    background-size:cover;
     &--home {
         height:95vh;
         &-triangle {
             background-image: url('../assets/home/triangle.gif');
-            background-position: center;
-            background-size:cover;
             position: relative;
             display: flex;
             flex-direction: column-reverse;
@@ -63,6 +67,12 @@ html, body {
             text-align: center;
             color: $text-color-darkbg;
             font-family: $primary-font;
+        }
+    }
+    &--proj {
+        height: 80vh;
+        &--projection {
+            background-image: url('../assets/proj/projection/cover.gif');
         }
     }
 }
