@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+}
+
+.min-100 {
+  min-height: 100%;
+}
+
+.sidebar {
+  background: #030303;
+  color: #eeeeee;
+}
+.sidebar__logo {
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+.hero--home {
+  height: 95vh;
+}
+.hero--home-triangle {
+  background-image: url("../assets/home/triangle.gif");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.hero--home-caption {
+  position: relative;
+  margin: 0 auto 2em auto;
+  max-width: 90%;
+  font-size: 2em;
+  text-align: center;
+  color: #eeeeee;
+}
+
+@media (min-width: 576px) {
+  .project-row .col-12:nth-child(even) {
+    padding-left: 1em;
+    padding-right: 0;
+  }
+  .project-row .col-12:nth-child(odd) {
+    padding-right: 1em;
+    padding-left: 0;
+  }
+}
+.project-row--item {
+  height: 15em;
+  background-position: center;
+  background-size: cover;
+}
+.project-row--item a {
+  height: 15em;
+  width: 100%;
+  display: block;
+}
+.project-row--item.proj-siw {
+  background-image: url("../assets/proj/siw/project-row-preview.png");
+}
+.project-row--item.proj-projection {
+  background-image: url("../assets/proj/projection/project-row-preview.jpg");
+}
+
+/*# sourceMappingURL=styles.css.map */
