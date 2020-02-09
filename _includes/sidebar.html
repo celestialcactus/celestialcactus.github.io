@@ -1,10 +1,15 @@
 <div class="sidebar--fixed">
     <img src="{{ "/assets/global/logo.jpg" | prepend: site/baseurl }}" class="sidebar__logo"/>
+<!-- 
+    Testing: Hide the following if in production. 
+    This will tell you the URL and assist in figuring out correct if conditions.
+    {{page.url}}
+-->
     <ul>
-        <li><a href="" class="current-link">Home</a></li>
-        <li><a href="portfolio.html">Cases</a></li>
+        <li><a href="{{ "/index.html" | prepend: site/baseurl }}" {% if page.url == "/" %}class="current-link"{% endif %}>Home</a></li>
+        <li><a href="{{ "/portfolio.html" | prepend: site/baseurl }}" {% if page.url == "/portfolio.html" or page.url contains "/portfolio/" %}class="current-link"{% endif %}>Cases</a></li>
         <li><a href="">Personal Projects</a></li>
-        <li><a href="">About Me</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="{{ "/about.html" | prepend: site/baseurl }}" {% if page.url == "/about.html" %}class="current-link"{% endif %}>About Me</a></li>
+        <li><a href="{{ "/contact.html" | prepend: site/baseurl }}" {% if page.url == "/contact.html" %}class="current-link"{% endif %}>Contact</a></li>
     </ul>
 </div>

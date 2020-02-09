@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="portfolio-page portfolio-{{page.code}}">
+<!--
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 hero hero--proj hero--proj--{{page.code}}">
+            </div>
+        </div>
+    </div>
+-->
+    <div class="container project-row">
+        <div class="col-12 py-3">
+            <h1>Cases</h1>
+        </div>
+        <div class="row">
+            {% include portfolioloop.html %}
+        </div>
+    </div>
+</div>

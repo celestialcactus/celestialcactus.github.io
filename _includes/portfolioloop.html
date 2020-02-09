@@ -1,0 +1,7 @@
+{% for portfolio in site.portfolio %}
+    <div class="col-6">
+        <div class="project-row--item proj-{{portfolio.code}}" style="background-image: url('/assets/proj/{{portfolio.code}}/{{portfolio.row-preview}}');">
+            <a href="{{portfolio.url}}"></a>
+        </div>
+    </div>
+{% endfor %}
