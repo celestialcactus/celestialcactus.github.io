@@ -1,0 +1,115 @@
+$sidebar-background:        #030303;
+$footer-background:        #222222;
+$text-color-darkbg:           #eeeeee;
+
+$primary-font:              'Lato';
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $primary-font;
+}
+
+html, body {
+    height: 100%;
+}
+.min-100 {
+    min-height: 100%;
+}
+.sidebar {
+    background: $sidebar-background;
+    color: $text-color-darkbg;
+    &__logo {
+        max-width: 70%;
+        margin: 0 auto;
+        display:block;
+    }
+    &--fixed {
+        position:sticky;
+        top: 20px;
+        padding-bottom: 3em;
+    }
+    ul {
+        list-style-type: none;
+        max-width: 80%;
+        margin: 1em auto 0 auto;
+    }
+    li a {
+        color: $text-color-darkbg;
+        font-size: 1.5em;
+        padding-bottom:.5em;
+        text-decoration: underline;
+        &:hover, &.current-link {
+            text-decoration: none;
+        }
+    }
+    font-family: $primary-font;
+}
+
+.portfolio-page img {
+    max-width: 100%;
+}
+
+.hero {
+    background-position: center;
+    background-size:cover;
+    &--home {
+        height:95vh;
+        &-triangle {
+            background-image: url('../assets/home/triangle.gif');
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        &-caption {
+            position: relative;
+            margin: 0 auto 2em auto;
+            max-width: 90%;
+            font-size: 2em;
+            text-align: center;
+            color: $text-color-darkbg;
+            font-family: $primary-font;
+        }
+    }
+    &--proj {
+        height: 80vh;
+        &--projection {
+            background-image: url('../assets/proj/projection/cover.gif');
+        }
+    }
+}
+
+.project-row {
+    @media (min-width: 576px) {
+        .col-12:nth-child(even) {
+            padding-left: 1em;
+            padding-right: 0;
+        }
+        .col-12:nth-child(odd) {
+            padding-right: 1em;
+            padding-left: 0;
+        }
+    }
+    &--item {
+        height: 15em;
+        background-position: center;
+        background-size: cover;
+        a {
+            height: 15em;
+            width: 100%;
+            display:block;
+        }
+        &.proj-siw {
+            background-image: url('../assets/proj/siw/project-row-preview.png');
+        }
+        &.proj-projection {
+            background-image: url('../assets/proj/projection/project-row-preview.jpg');
+        }
+        &:hover {
+            opacity: 0.8;
+            transition: all 0.5 ease-in-out;
+        }
+    }
+}
+.contact-row {
+    background-color: $footer-background;
+    color: $text-color-darkbg;
+}

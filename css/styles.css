@@ -1,0 +1,87 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato"; }
+
+html, body {
+  height: 100%; }
+
+.min-100 {
+  min-height: 100%; }
+
+.sidebar {
+  background: #030303;
+  color: #eeeeee;
+  font-family: "Lato"; }
+  .sidebar__logo {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block; }
+  .sidebar--fixed {
+    position: sticky;
+    top: 20px;
+    padding-bottom: 3em; }
+  .sidebar ul {
+    list-style-type: none;
+    max-width: 80%;
+    margin: 1em auto 0 auto; }
+  .sidebar li a {
+    color: #eeeeee;
+    font-size: 1.5em;
+    padding-bottom: .5em;
+    text-decoration: underline; }
+    .sidebar li a:hover, .sidebar li a.current-link {
+      text-decoration: none; }
+
+.portfolio-page img {
+  max-width: 100%; }
+
+.hero {
+  background-position: center;
+  background-size: cover; }
+  .hero--home {
+    height: 95vh; }
+    .hero--home-triangle {
+      background-image: url("../assets/home/triangle.gif");
+      position: relative;
+      display: flex;
+      flex-direction: column-reverse; }
+    .hero--home-caption {
+      position: relative;
+      margin: 0 auto 2em auto;
+      max-width: 90%;
+      font-size: 2em;
+      text-align: center;
+      color: #eeeeee;
+      font-family: "Lato"; }
+  .hero--proj {
+    height: 80vh; }
+    .hero--proj--projection {
+      background-image: url("../assets/proj/projection/cover.gif"); }
+
+@media (min-width: 576px) {
+  .project-row .col-12:nth-child(even) {
+    padding-left: 1em;
+    padding-right: 0; }
+  .project-row .col-12:nth-child(odd) {
+    padding-right: 1em;
+    padding-left: 0; } }
+.project-row--item {
+  height: 15em;
+  background-position: center;
+  background-size: cover; }
+  .project-row--item a {
+    height: 15em;
+    width: 100%;
+    display: block; }
+  .project-row--item.proj-siw {
+    background-image: url("../assets/proj/siw/project-row-preview.png"); }
+  .project-row--item.proj-projection {
+    background-image: url("../assets/proj/projection/project-row-preview.jpg"); }
+  .project-row--item:hover {
+    opacity: 0.8;
+    transition: all 0.5 ease-in-out; }
+
+.contact-row {
+  background-color: #222222;
+  color: #eeeeee; }
+
+/*# sourceMappingURL=styles.css.map */
