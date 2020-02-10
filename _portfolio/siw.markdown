@@ -2,26 +2,31 @@
 layout: portfolio
 code: siw
 row-preview: project-row-preview.png
-project: UConn Cyberpunk Installation
+project: Stamford Innovation Week Digital Experience
 year: 2019
-category: Design, Project Management, Art Direction
-synopsis: I lead a team of creatives in developing a projection installation at UConn Stamford Paying homage to the Cyberpunk Genre. Over the course of several weeks, I guided my team from ideation to execution along with creating project graphics.
+category: Digital Experience, Design, Marketing
+synopsis: I was brought on to work with Stamford Innovation Week (a week long cultural event series centered around innovation, technology, and entrepreneurship) to expand their digital presence. Over the course of a few months, I expanded the organization's marketing efforts, built out web experiences, and developed process workflows which contributed to the events success and growth.
 features:
-    - header: "Process: Designs"
-      descrip: "Cyberpunk is defined by its juxtaposition of technological advancements including Artificial Intelligence, Nanotechnology, and Cybernetics with a culturally stagnant society. Other themes like consumerism and corporatism are also often explored within the genre making it a brilliant analogue for changes we are witnessing today. Observing the student body around us we noticed the profound influence of branding towards fashion choice. Freshman were often flexing brands like Supreme and Balenciaga while simultaneously talking about not being able to afford textbooks. We found that amusing. As such, our designs were influenced by a mix of both existing and fictional branding to tie our metanarrative to present reality."
-      images: 
-        - src: "../assets/proj/projection/supreme-sneaker.gif"
-          alt: "?"
-        - src: "../assets/proj/projection/wagyum.gif"
-        - src: "../assets/proj/projection/cybercorp.gif"
-        - src: "../assets/proj/projection/watervomit.gif"
-    - header: "Process: Logistics"
-      descrip: During the process we faced a number of challenges, the first involving the projectors themselves. Our projectors were limited to low light conditions, meaning we could only properly test at night. In addition, the concourse lights impacted the projection image quality. Still, we were determined to make the installation work in a public space, so we put together a proposal to request accomodations. Here are some examples of visualizations we provided for approval.
+    - header: "Process: Web Design"
+      descrip:
+        - line: The SiWeek website would serve to be a centralized content hub for any prospective event goers. That being said, it was important for the experience to convey the information that organizers wanted and was useful for. This required a great amount of communication between key stakeholders to understand exactly what information was needed.
+        - line: In addition, I made sure to adhere to SiWeek’s branding guidelines, staying consistent with the initial design.
       images:
-        - src: "../assets/proj/projection/mockup.png"
+        - src: "webdesign.png"
+          alt: "?"
+        - src: "webdesign2.png"
+    - header: "Tools"
+      descrip:
+        - line: The SiWeek team had opted to use Elementor as our primary design tool. Some of the advantages behind using Elementor was the ability to make quick changes on the fly. With details always subject to change, this factor enabled me to act quickly on new information coming from planning committees and stakeholders.
+      images:
+        - src: "webtools.png"
+    - header: "Process: CRM Automation"
+      descrip:
+        - line: Running an ongoing events program meant that our email list would be saturated with plenty of updates. I wanted to develop a framework that could contribute to a more precise targeting for our audience, while driving more actions, and less attrition.
+        - line: The first stage was segmenting our users from existing registration data. Doing so would allow us to target our promotions based on interest. So for example, if someone was interested in a python conference event, they may also be interested in attending a blockchain conference.
+        - line: To do this, I gathered the existing registration data and started segmenting them from within hubspot's audience tools. Then I would categorize the event offerings based on subject relevance towards each other and registered users. From this point, I was able to get an idea how to cross sell and upsell between users. 
+        - line: From this point on we brought in a Hubspot professional to assist in the implementation.
+      images:
+        - src: "crm-flow.png"
 
 ---
-
-## Result
-
-<iframe src="https://drive.google.com/file/d/148GS-d3QVg5PlnuDt0-fxQ3429iVgeJF/preview" width="830" height="462"></iframe>

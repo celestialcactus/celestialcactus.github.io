@@ -3,12 +3,14 @@ layout: default
 ---
 
 <div class="portfolio-page portfolio-{{page.code}}">
+    {% if page.cover %}
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 hero hero--proj hero--proj--{{page.code}}">
+            <div class="col-12 hero hero--proj hero--proj--{{page.code}}" style="background-image: url('../assets/proj/{{page.code}}/{{page.cover}}');">
             </div>
         </div>
     </div>
+    {% endif %}
     <div class="container">
         <div class="col-12 py-3">
             <p><b>Project</b>: {{page.project}} </p>
@@ -18,7 +20,9 @@ layout: default
             <div>
                 {% for feature in page.features %}
                     <h2>{{feature.header}}</h2>
-                    <p>{{feature.descrip}}</p>
+                    {% for description in feature.descrip %}
+                        <p>{{description.line}}</p>
+                    {% endfor %}
                     {% if feature.images.size == 0 %}
                     {% elsif feature.images.size == 1 %}
                         <img src="../assets/proj/{{page.code}}/{{feature.images[0].src}}" />

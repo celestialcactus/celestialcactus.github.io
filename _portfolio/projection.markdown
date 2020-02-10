@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 code: projection
+cover: cover.gif
 row-preview: project-row-preview.jpg
 project: UConn Cyberpunk Installation
 year: 2019

@@ -7,8 +7,8 @@
 -->
     <ul>
         <li><a href="{{ "/index.html" | prepend: site/baseurl }}" {% if page.url == "/" %}class="current-link"{% endif %}>Home</a></li>
-        <li><a href="{{ "/portfolio.html" | prepend: site/baseurl }}" {% if page.url == "/portfolio.html" or page.url contains "/portfolio/" %}class="current-link"{% endif %}>Cases</a></li>
-        <li><a href="">Personal Projects</a></li>
+        <li><a href="{{ "/portfolio.html" | prepend: site/baseurl }}" {% if page.url == "/portfolio.html" or page.url contains "/portfolio/" %}class="current-link"{% endif %}>Projects</a></li>
+        <li><a href="{{ "/blog.html" | prepend: site/baseurl }}" {% if page.url == "/blog.html" or page.url contains "/2017/" or page.url contains "/2018/" or page.url contains "/2019/" or page.url contains "/2020/" %}class="current-link"{% endif %}">Blog</a></li>
         <li><a href="{{ "/about.html" | prepend: site/baseurl }}" {% if page.url == "/about.html" %}class="current-link"{% endif %}>About Me</a></li>
         <li><a href="{{ "/contact.html" | prepend: site/baseurl }}" {% if page.url == "/contact.html" %}class="current-link"{% endif %}>Contact</a></li>
     </ul>

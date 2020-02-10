@@ -44,8 +44,14 @@ html, body {
     font-family: $primary-font;
 }
 
-.portfolio-page img {
-    max-width: 100%;
+.portfolio-page {
+    img {
+        max-width: 100%;
+    }
+    h2 {
+        margin-top: 2.5em;
+        margin-bottom: 0.5em;
+    }
 }
 
 .hero {
