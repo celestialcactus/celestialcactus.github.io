@@ -10,22 +10,7 @@ features:
       - header: "Process: Marketing Strategy"
       descrip:
         - line: From the start, SiWeek made it clear that they had set ambitious growth goals for its second year in action. Their primary objectives were to increase web traffic, SiWeek email subscribers, and event attendance by 20 - 50%. This meant that I would need to prioritize improving our lead generation in addition to reconverting previous events attendees. I worked with the SiWeek team to develop a multichannel marketing strategy composed of on-location media activations, social media, and email marketing. 
-      - header: "Developing Personas"
-      descrip: 
-        - line: One challenge with developing SiWeeks marketing plan was that its programming created a broadly defined set of demographic information. Each event had its own intended audience which could be in different life stages or professions. When creating a marketing plan it’s important to define our targets so we can understand how our work impacts our audience.
-        - line: I started off by answering three questions.  
-        - line: Who?
-          - line: Knowing who I’m communicating with helps me deliver my message more effectively through understanding who they are as a person and what they value most. 
-        - line: Why?
-          - line: Understanding the why answers two things. Why is our message important to them? Does it help them obtain something that they consider valuable? 
-        - line: Where?
-          - line: Identifying where a person digitally or physically resides helps establish the context in which they receive a message. For example, a growing professional would be more likely to use linkedin as a means of professional development, networking, and discovery. So, it would make sense that we serve them content related to what they were already looking for in that context. 
-        - line: By answering these three questions, we would be able focus our efforts effectively towards driving outcomes.
-        - line: To help with identifying our core audiences, I created a series of temporary personas using HubSpot customer data, social media analytics, and qualitative interviews. 
-       images:
-        - src: "webdesign.png"
-          alt: "?"
-        - src: "webdesign2.png"     
+      - header: "Developing Personas"    
 
       - header: "Customer Journey"
       descrip: 
@@ -37,7 +22,7 @@ features:
         - src: "siweek-customerjourneyworkflow-casestudy1.png"
           alt: "?"
         - src: "siweek-digitaljourney-casestudy1.png"
-    - header: "Process: Experience Design and Prototyping"
+    - header: "Process: Experience Design"
       descrip:
         - line: The SiWeek team wanted the website to operate as a centralized content hub for any prospective event goers. Site users would come here to learn more about events, register, and make other purchases. With these goals in mind, I needed to emphasize usability and navigation while balancing other page requirements from multiple stakeholders. 
       images:
