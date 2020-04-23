@@ -55,8 +55,4 @@ features:
         - line: We also received great feedback from the local press, our events attendees, and our organization partners. Here you can even see IBM Master Inventor Niel Sahota repping our T-Shirts in one of his personal vlogs. 
         - line: Niel Sahota repping the brand - https://www.linkedin.com/posts/neilsahota_neilsahota-aiforgood-artificialintelligence-activity-6645999934292185089-EAfo  
         - line: SiWeek Attendance surge - https://www.stamfordadvocate.com/business/article/Stamford-Innovation-Week-sees-attendance-surge-14488746.php
-        
-
-
-
 ---
