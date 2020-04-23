@@ -26,7 +26,6 @@ features:
         - src: "webdesign.png"
           alt: "?"
         - src: "webdesign2.png"     
-
       - header: "Customer Journey"
       descrip: 
         - line: With so many moving parts across workstreams, it could be easy to become entrenched in a process and lose sight of the bigger picture. Additionally, without having any established measurements, it would be nearly impossible to evaluate whether the work we were doing had any impact at all. As a means of keeping track of all of our touchpoints, I created a generalized customer journey outline. By defining the touchpoints between us and our customers, we could get a clearer picture of how our efforts contributed to their experience. 
@@ -44,7 +43,6 @@ features:
         - src: "siweek-homepage-casestudy.png"
           alt: "?"
         - src: "siweek-digitalmediapage-casestudy.png"      
-
     - header: "Cognitive Walkthroughs" 
       descrip:
         - line: To help facilitate the design process, I conducted several cognitive walkthroughs of the initial page design. These exercises are a great way to get insight on how a user might feel about the experience in real time and helps validate (or invalidate) any assumptions that I might have had early on in the process. Once I finished synthesizing the information collected, I could get to revising the prototyped page and add new features. The resulting outcome from these iterative exercises was an overall improved functionality across the page including streamlined content submission systems, better readability, and search filtering. 
@@ -52,7 +50,6 @@ features:
         - src: "siweek-cognitivewalkthrough-casestudy.png"
           alt: "?"
         - src: "siweek-schedulingpage-casestudy.png"
-
     - header: "Process: Workflow Design and Automation"
       descrip:
         - line: In addition to web and strategy, I worked on managing SiWeek’s HubSpot system, creating content, and automating email workflows. During this time, I wanted to find a way of reducing churn rate while maximizing engagement and buyer outcomes. For this to happen we would need to improve our audience targeting and work towards greater content personalization. 
